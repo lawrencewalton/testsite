@@ -141,3 +141,61 @@
 
 
 </body>
+
+<style>
+/* Navigation Bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #9393d4;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #fff;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #0000ff;
+}
+
+
+
+
+.top-name {
+    position: absolute;
+    left: 100px;
+    top: 200px;
+    text-shadow: 2px 2px #D3D3D3;
+}
+
+.top-description {
+    position: absolute;
+    left: 100px;
+    top: 300px; 
+    text-shadow: 1px 1px #D3D3D3;
+    
+}
+
+.top-btn {
+      position: absolute;
+      left: 300px;
+      top: 350px;
+}
+
+.thumb {
+  width: 375px; 
+  height: 275px; 
+}
+
+</style>
