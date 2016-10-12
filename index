@@ -1,1 +1,143 @@
+  <body>
+  <!--Top Navigation  Bar-->
+  <nav class="navbar navbar-default">
+    <div class="collapse navbar-collapse" id="bs-example-navbar">
+      <ul class="nav navbar-nav">
+        <li onclick="myFunction()" class="active"><a href="#about">About <span class="sr-only">(current)</span></a></li>
+        <li><a href="#porfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
 
+  <!-- Banner image -->
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="top-name">Lawrence Walton</h1>
+      <p class="top-description">Experienced - Talented - Committed</p>
+      <img src="https://runningontheedge.files.wordpress.com/2014/07/cropped-bt003065.jpg" class="img-responsive" alt="Mountain Runner">
+      <p class="top-btn"><a class="btn btn-danger btn-lg" href="#" role="button">Contact Me!</a></p>
+    </div>
+    <!-- /container -->
+  </div>
+
+  <!-- Page Content -->
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-12">
+            <h1 class="page-header"><a name="porfolio">Project Portfolio</a></h1>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+        <a class="thumbnail" href="#">
+          <img class="img-responsive" src="https://i2.wp.com/mechamake.files.wordpress.com/2016/10/mathquiz1.png?ssl=1&w=450" alt="">
+        </a>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+        <a class="thumbnail" href="#">
+          <img class="img-responsive" src="https://i1.wp.com/mechamake.files.wordpress.com/2016/10/pictureviewer.png?ssl=1&w=450" alt="">
+        </a>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+        <a class="thumbnail" href="#">
+          <img class="img-responsive" src="https://i1.wp.com/mechamake.files.wordpress.com/2016/10/mechamakesite1.png?ssl=1&w=450" alt="">
+        </a>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+        <a class="thumbnail" href="#">
+          <img class="img-responsive" src="https://i1.wp.com/mechamake.files.wordpress.com/2016/10/runningsite1.png?ssl=1&w=450" alt="">
+        </a>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+        <a class="thumbnail" href="#">
+          <img class="img-responsive" src="https://i1.wp.com/mechamake.files.wordpress.com/2016/10/mvcsitte1.png?ssl=1&w=450" alt="">
+        </a>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+        <a class="thumbnail" href="#">
+          <img class="img-responsive" src="https://i0.wp.com/mechamake.files.wordpress.com/2016/10/bigdogs1.png?ssl=1&w=450" alt="">
+        </a>
+      </div>
+
+      <!--End Portfolio -->
+
+
+      <!--Begin Contact Form -->
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <h1><a name="contact">Contact Me</a></h1>
+            <h3>Have a problem that you need help with?  Need a break?  I can help you and your organization.  Contact me anytime!</h3>
+            <form id="contact-form" method="post" action="contact.php" role="form">
+              <div class="messages"></div>
+              <div class="controls">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="form_name">Firstname *</label>
+                      <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="form_lastname">Lastname *</label>
+                      <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="form_email">Email *</label>
+                      <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="form_phone">Phone</label>
+                      <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label for="form_message">Message *</label>
+                      <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <input type="submit" class="btn btn-success btn-send" value="Send message">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <p class="text-muted"><strong>*</strong> These fields are required. </p>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <!-- /.8 -->
+        </div>
+        <!-- /.row-->
+      </div>
+      <!-- /.container-->
+
+
+</body>
